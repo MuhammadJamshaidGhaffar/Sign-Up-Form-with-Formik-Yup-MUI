@@ -16,9 +16,9 @@ const steps = ["Enter your email", "Set Password", "Enter your Country"];
 export default function VerticalLinearStepper() {
   const [activeStep, setActiveStep] = React.useState(0);
   const [data, setData] = React.useState({
-    email: "123",
-    password: "12345",
-    country: "Pakistan",
+    email: "",
+    password: "",
+    country: "",
   });
 
   const handleNext = () => {
